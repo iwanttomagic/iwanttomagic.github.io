@@ -11,19 +11,21 @@ background-color: #CCFFFF;
 color: #595959;
 margin: 0;
 overflow-x: hidden;
+
+}
+
+html, body {
+height: 100%;
 }
 
 h1 {
 font-size: 6vw;
 text-align: center;
-width: 100%;
-height: 50%
-margin: 0px;
-line-height: 30px;
+height: 50%;
+line-height: 50%;
 border: none;
 color: #FFFFCC;
-padding-top: 15%;
-padding-bottom: 15%;
+margin: auto;
 }
 
 h1, h2 {
@@ -33,22 +35,23 @@ font-family: Courier, monospace;
 
 
 div {
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
 width: 100%;
-margin: auto;
-padding-top: 1px;
-padding-right: 15px;
-padding-left: 15px;
-padding-bottom: 1px;
 border: none;
 height: 50%
 }
 
-div, .portfolio {
-background-color: #FF0066;;
+.portfolio, div {
+background-color: #FF0066;
+
 }
 
 div, .poetry {
 background-color: #fcba03;
+
 }
 
 a:link {
@@ -57,12 +60,8 @@ color: #FF0066;
 target: _blank
 }
 
-a:visited {
-color: #FF6600;
-}
-
 a:hover {
-background-color: #CCFFFF;
+background-color: #ff8400;
 }
 
 
